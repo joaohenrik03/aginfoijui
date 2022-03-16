@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?rrs13e');
+  src:  url('fonts/icomoon.eot?rrs13e#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?rrs13e') format('truetype'),
+    url('fonts/icomoon.woff?rrs13e') format('woff'),
+    url('fonts/icomoon.svg?rrs13e#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e900";
+}
+.icon-app_computer_essential_object_process_icon:before {
+  content: "\e901";
+}
+.icon-app_communication_computer_essential_object_icon:before {
+  content: "\e902";
+}
+.icon-freelancer_computer_working_internet_work_icon:before {
+  content: "\e903";
+}
+.icon-close:before {
+  content: "\e904";
+}
+.icon-facebook:before {
+  content: "\e905";
+}
+.icon-instagram:before {
+  content: "\e906";
+}
+.icon-mail:before {
+  content: "\e907";
+}
+.icon-map-pin:before {
+  content: "\e908";
+}
+.icon-menu:before {
+  content: "\e909";
+}
+.icon-whatsapp:before {
+  content: "\e90a";
+}
+.icon-youtube:before {
+  content: "\e90b";
+}
