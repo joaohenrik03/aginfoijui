@@ -26,6 +26,10 @@ body {
 
 /*============================== BASE ==============================*/
 
+main {
+    margin-top: calc(var(--header-height) + 2rem);
+}
+
 a {
     text-decoration: none;
 }
@@ -95,6 +99,8 @@ h1 {
     width: 100%;
 }
 
+/*============================== NAVIGATION ==============================*/
+
 nav {
     height: var(--header-height);
     display: flex;
@@ -103,6 +109,8 @@ nav {
     width: 100%;
 }
 
+/*============================== LOGO ==============================*/
+
 .logo {
     font: 700 1.31rem 'Montserrat', sans-serif;
     color: var(--title-color);
@@ -110,10 +118,6 @@ nav {
 
 .logo span {
     color: var(--base-color);
-}
-
-main {
-    margin-top: var(--header-height);
 }
 
 /*============================== HOME ==============================*/
