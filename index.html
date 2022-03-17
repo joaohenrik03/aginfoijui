@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AG Soluções em Informática</title>
+    
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 
     <!-- Styles -->
     <link rel="stylesheet" href="style.css" />
@@ -17,9 +20,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <!-- Swiper -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
   </head>
   <body>
     <!-- Header -->
@@ -181,7 +181,7 @@
 
       <!-- Testimonials -->
       <section class="section" id="testimonials">
-        <div class="container grid">
+        <div class="container swiper"> <!-- Adicionar aqui a classe swiper -->
           <!-- Header Testimonials -->
           <header>
             <h2 class="title">
@@ -189,48 +189,63 @@
             </h2>
           </header>
           <!-- /Header Testimonials -->
-          <div class="testimonials">
-            <!-- Testimonial 1 -->
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam error veniam dicta voluptas dolores autem quo ratione, debitis similique, repellat id consectetur? Quod alias illo nemo veritatis voluptate ea quis?
-                </p>
-                <cite>
-                  <img src="./assets/images/user_testimonal01.jpg" alt="Foto de Jeferson Kochenborger">
-                  Jeferson Kochenborger
-                </cite>
-              </blockquote>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+
+              <!-- Testimonial 1 -->
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                    ipsam neque
+                  </p>
+                  <cite>
+                    <img src="./assets/images/user_testimonal01.jpg" alt="Foto de Jeferson Kochenborger">
+                    Jeferson Kochenborger
+                  </cite>
+                </blockquote>
+              </div>
+              <!-- /Testimonial 1 -->
+
+              <!-- Testimonial 2 -->
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                    ipsam neque
+                  </p>
+                  <cite>
+                    <img src="./assets/images/user_testimonal02.png" alt="Foto de Jordana Miron">
+                    Jordana Miron
+                  </cite>
+                </blockquote>
+              </div>
+              <!-- /Testimonial 2 -->
+
+              <!-- Testimonial 3 -->
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                    ipsam neque
+                  </p>
+                  <cite>
+                    <img src="./assets/images/user_testimonal03.png" alt="Foto de Augusto dos Santos">
+                    Augusto dos Santos
+                  </cite>
+                </blockquote>
+              </div>
+              <!-- /Testimonial 3 -->
             </div>
-            <!-- Testimonial 2 -->
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam error veniam dicta voluptas dolores autem quo ratione, debitis similique, repellat id consectetur? Quod alias illo nemo veritatis voluptate ea quis?
-                </p>
-                <cite>
-                  <img src="./assets/images/user_testimonal02.png" alt="Foto de Jordana Miron">
-                  Jordana Miron
-                </cite>
-              </blockquote>
-            </div>
-            <!-- Testimonial 3 -->
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam error veniam dicta voluptas dolores autem quo ratione, debitis similique, repellat id consectetur? Quod alias illo nemo veritatis voluptate ea quis?
-                </p>
-                <cite>
-                  <img src="./assets/images/user_testimonal03.png" alt="Foto de Augusto dos Santos">
-                  Augusto dos Santos
-                </cite>
-              </blockquote>
-            </div>
-            <!-- /Testimonial -->
-            </div>
+      
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
@@ -241,7 +256,6 @@
       <!-- /Divider -->
 
       <!-- Contact -->
-
       <!-- /Contact -->
     </main>
     <!-- /Main -->
