@@ -245,6 +245,10 @@ nav.show div.icon-close {
     color: var(--base-color);
 }
 
+.logo-alt span {
+    color: var(--body-color);
+}
+
 /*============================== HOME ==============================*/
 
 #home {
@@ -454,4 +458,29 @@ nav.show div.icon-close {
 
 #contact ul li i {
     color: var(--base-color);
+}
+
+/*============================== FOOTER ==============================*/
+
+footer {
+    background-color: var(--base-color);
+}
+
+footer .brand .logo {
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+footer p {
+    color: var(--text-color-light); 
+    margin-bottom: 0.75rem;  
+}
+
+footer i {
+    font-size: 1.5rem;
+    color: var(--text-color-light); 
+}
+
+footer .social a {
+    margin-right: 2rem;
 }
