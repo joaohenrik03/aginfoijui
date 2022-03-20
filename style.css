@@ -505,3 +505,8 @@ footer .social a {
 
     transition: 0.3s;
 }
+
+.back-to-top-show {
+    visibility: visible;
+    opacity: 1;
+}
