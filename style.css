@@ -9,6 +9,8 @@
     --text-color: hsl(0, 0, 46%);
     --text-color-light: hsl(0, 0%, 98%);
     --body-color: hsl(0, 0%, 98%);
+
+    --title-font-size: 1.875rem
 }
 
 * {
@@ -48,7 +50,7 @@ img {
 }
   
 .title {
-    font: 700 1.875rem 'Montserrat', sans-serif;
+    font: 700 var(--title-font-size) 'Montserrat', sans-serif;
     color: var(--title-color);
     -webkit-font-smoothing: auto;
 }
@@ -516,4 +518,30 @@ footer .social a:hover {
     visibility: visible;
     opacity: 1;
     bottom: 1rem;
+}
+
+/*============================== RESPONSIVE ==============================*/
+/*============================== RESPONSIVE ==============================*/
+/*============================== RESPONSIVE ==============================*/
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1023px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 992px) {
+    :root {
+        --title-font-size: 2.25rem
+    }
+}
+
+@media (min-width: 767px) {
+
 }
