@@ -1,4 +1,5 @@
 /* Abrir e fechar menu ao clicar: hamburguer && X */ 
+/* Open and close menu on click: hamburger && X */
 
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
@@ -10,6 +11,7 @@ for (const element of toggle) {
 }
 
 /* Fechar menu ao clicar em algum link */ 
+/* Close menu when clicking on a link */
 
 const linksMenu = document.querySelectorAll('nav ul li a')
 
@@ -20,6 +22,7 @@ for (const links of linksMenu) {
 }
 
 /* Colocar sombra ao header quando der scroll */ 
+/* Put a shadow on the header when scrolling */
 
 const header = document.querySelector('#header')
 const navHeight = header.offsetHeight
@@ -31,6 +34,9 @@ window.addEventListener('scroll', () => {
         header.classList.remove('scroll')       
     }
 })
+
+/* Adicionar botão de voltar ao topo quando passar da seção home */
+/* Add back to top button when past home section */
 
 const buttonBackToTop = document.querySelector('.back-to-top')
 const home = document.querySelector('#home')
@@ -44,6 +50,7 @@ window.addEventListener('scroll', () => {
     }
 })
 
+/* Carrossel de depoimentos */
 /* Testimonial carousel */
 
 const swiper = new Swiper('.swiper-container', {
@@ -61,6 +68,7 @@ const swiper = new Swiper('.swiper-container', {
     }
 })
 
+/* ScrollReveal */
 /* ScrollReveal */
 
 const scrollReveal = ScrollReveal({
