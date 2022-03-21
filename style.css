@@ -33,10 +33,6 @@ body {
 
 /*============================== BASE ==============================*/
 
-main {
-    margin-top: calc(var(--header-height) + 2rem);
-}
-
 a {
     text-decoration: none;
 }
@@ -103,7 +99,7 @@ img {
 }
 
 .section {
-    padding: 5rem 0;
+    padding: calc(5rem + var(--header-height)) 0;
 }
 
 .section .title {
@@ -529,8 +525,10 @@ footer .social a:hover {
 /*============================== RESPONSIVE ==============================*/
 /*============================== RESPONSIVE ==============================*/
 
-@media (min-width: 1200px) {
-
+@media (min-width: 1200px) {  
+    main {
+        margin-top: var(--header-height);
+    }
 }
 
 @media (min-width: 1023px) {
