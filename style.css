@@ -469,6 +469,10 @@ footer {
     background-color: var(--base-color);
 }
 
+footer.section {
+    padding: 4rem 0;
+}
+
 footer .brand .logo {
     display: block;
     margin-bottom: 1.5rem;
