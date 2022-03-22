@@ -11,7 +11,10 @@
     --body-color: hsl(0, 0%, 98%);
 
     --title-font-size: 1.875rem;
-    --subtitle-font-size: 1rem
+    --subtitle-font-size: 1rem;
+
+    --title-font: 'Montserrat', sans-serif;
+    --body-font: 'Raleway', sans-serif;
 }
 
 * {
@@ -25,7 +28,7 @@ html {
 }
 
 body {
-    font: 400 1rem 'Raleway', sans-serif;
+    font: 400 1rem var(--body-font);
     color: var(--text-color);
     background: var(--body-color);
     -webkit-font-smoothing: antialiased;
@@ -47,7 +50,7 @@ img {
 }
   
 .title {
-    font: 700 var(--title-font-size) 'Montserrat', sans-serif;
+    font: 700 var(--title-font-size) var(--title-font);
     color: var(--title-color);
     -webkit-font-smoothing: auto;
 }
@@ -60,7 +63,7 @@ img {
     align-items: center;
     padding: 0 2rem;
     border-radius: 0.25rem;
-    font: 500 1rem 'Raleway', sans-serif;
+    font: 500 1rem var(--body-font);
     transition: background 0.3s;
 }
 
@@ -240,7 +243,7 @@ nav.show div.icon-close {
 /*============================== LOGO ==============================*/
 
 .logo {
-    font: 700 1.31rem 'Montserrat', sans-serif;
+    font: 700 1.31rem var(--title-font);
     color: var(--title-color);
 }
 
@@ -537,6 +540,26 @@ footer .social a:hover {
     .section {
         padding: 10rem 0;
     } 
+
+    nav .menu {
+        opacity: 1;
+        visibility: visible;
+        top: 0;
+    }
+
+    nav .menu ul {
+        display: flex;
+        gap: 2rem;
+    }
+
+    nav .menu ul li a.title {
+        font: 400 1rem var(--body-font);
+    }
+
+    nav .icon-menu {
+        display: none;
+    }
+
     main {
         margin-top: var(--header-height);
     }
