@@ -634,6 +634,15 @@ footer .social a:hover {
 
     /*============================== CONTACT ==============================*/
 
+    #contact .container {
+        grid-auto-flow: column;
+        align-items: center;
+    }
+
+    #contact .text {
+        max-width: 25rem;
+    }
+
     /*============================== FOOTER ==============================*/
 }
 
