@@ -488,8 +488,12 @@ footer i {
     color: var(--text-color-light); 
 }
 
+footer .social {
+    grid-auto-flow: column;
+    width: fit-content;
+}
+
 footer .social a {
-    margin-right: 2rem;
     transition: 0.3s;
     display: inline-block;
 }
