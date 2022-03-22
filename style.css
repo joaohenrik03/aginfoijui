@@ -605,6 +605,15 @@ footer .social a:hover {
         margin: 0 auto;
     }
 
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
     #testimonials .container {
         margin-left: auto;
         margin-right: auto;
