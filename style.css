@@ -654,6 +654,10 @@ footer .social a:hover {
         align-items: center;
         justify-content: space-between;
     }
+
+    footer .logo {
+        font-size: 2.25rem;
+    }
 }
 
 @media (min-width: 1023px) {
