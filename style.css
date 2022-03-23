@@ -245,7 +245,7 @@ nav.show div.icon-close {
 /*============================== LOGO ==============================*/
 
 .logo {
-    font: 700 1.31rem var(--title-font);
+    font: 700 1.5rem var(--title-font);
     color: var(--title-color);
 }
 
@@ -606,7 +606,6 @@ footer .social a:hover {
 
     #home .image {
         order: 1;
-        max-width: 33rem;
     }
 
     #home .text {
