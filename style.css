@@ -372,6 +372,10 @@ nav.show div.icon-close {
     margin-bottom: 0.75rem;
 }
 
+.card:hover {
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.22);    
+}
+
 /*============================== TESTIMONIALS ==============================*/
 
 #testimonials {
@@ -426,6 +430,10 @@ nav.show div.icon-close {
     clip-path: circle();
 
     margin-right: 0.5rem;
+}
+
+#testimonials blockquote:hover {
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.22);    
 }
 
 /*============================== SWIPER ==============================*/
